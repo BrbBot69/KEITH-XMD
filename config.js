@@ -13,13 +13,13 @@ module.exports = {
 SESSION_ID: process.env.SESSION_ID || "",
   // Your bot's session ID (keep it secure)
 
-PREFIX: getConfig("PREFIX") || ".", 
+PREFIX: getConfig("PREFIX") || "!", 
  // Command prefix (e.g., "., / ! * - +")
 
 CHATBOT: getConfig("CHATBOT") || "off",
  // on/off chat bot,
 
-BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "𝐊𝐄𝐈𝐓𝐇-𝐗𝐌𝐃", 
+BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "BALLAS𝗑ᴾᴿᴼ", 
  // Bot's display name
 
 MODE: getConfig("MODE") || process.env.MODE || "public",  
@@ -31,14 +31,14 @@ REPO: process.env.REPO || "https://github.com/Keith-tech57/KEITH-XMD",
 BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
   // Bot's BAILEYS
 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "263789745277", 
+OWNER_NUMBER: process.env.OWNER_NUMBER || "27767494368", 
  // Owner's WhatsApp number
 
-OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Keith",           // Owner's name
+OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "♤𝗑ᴾᴿᴼ♧",           // Owner's name
 
-DEV: process.env.DEV || "263789745277",              // Developer's contact number
+DEV: process.env.DEV || "27767494368",              // Developer's contact number
 
-DEVELOPER_NUMBER: '263789745277@s.whatsapp.net',            
+DEVELOPER_NUMBER: '27767494368@s.whatsapp.net',            
 // Developer's WhatsApp ID
 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",     // Enable/disable auto-reply
@@ -46,7 +46,7 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",     // Enable/disable auto-reply
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // Reply to status updates?
 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*KEITH-XMD VIEWED YOUR STATUS 🤖*",  
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*BALLAS𝗑ᴾᴿᴼ VIEWED YOUR STATUS 🤖*",  
 // Status reply message
 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",         
@@ -64,7 +64,7 @@ CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 CUSTOM_REACT_EMOJIS: getConfig("CUSTOM_REACT_EMOJIS") || process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍", 
  // set custom reacts
 
-STICKER_NAME: process.env.STICKER_NAME || "KEITH-XMD",     
+STICKER_NAME: process.env.STICKER_NAME || "♤𝗑ᴾᴿᴼ♧",     
 // Sticker pack name
 
 AUTO_STICKER: process.env.AUTO_STICKER || "false",         
@@ -78,7 +78,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",   // reply on mentioned message 
 
-MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://ibb.co/4wQD4n05",  
+MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/7xxkld.jpg",  
 // Bot's "alive" menu mention image
 
    ANTI_DELETE: process.env.ANTI_DELETE || "false",
@@ -106,22 +106,22 @@ ANTI_BOT: process.env.ANTI_BOT || "true",
 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 
-PM_BLOCKER: process.env.PM_BLOCKER || "false",
+PM_BLOCKER: process.env.PM_BLOCKER || "true",
 
     
-DESCRIPTION: process.env.DESCRIPTION || "> *© POWERED BY KEITH-TECH*",  
+DESCRIPTION: process.env.DESCRIPTION || "> *© POWERED BY ♤𝗑ᴾᴿᴼ♧*",  
 // Bot description
 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",  
 // Allow public commands?
 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",        
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",        
 // Show bot as always online?
 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false", 
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", 
 // React to status updates?
 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false", // VIEW to status updates?
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true", // VIEW to status updates?
 
 AUTO_BIO: process.env.AUTO_BIO || "false",
  // ture to get auto bio 
@@ -129,13 +129,13 @@ AUTO_BIO: process.env.AUTO_BIO || "false",
 WELCOME: process.env.WELCOME || "false", 
 // true to get welcome in groups
 
-ALIVE_IMAGE_URL: getConfig("ALIVE_IMAGE_URL") || "https://files.catbox.moe/1soqkf.jpg",  
+ALIVE_IMAGE_URL: getConfig("ALIVE_IMAGE_URL") || "https://files.catbox.moe/7xxkld.jpg",  
 // Bot's "alive" image
 
 GOODBYE: process.env.GOODBYE || "false",
  // true to get goodbye in groups 
 
-ADMIN_ACTION: process.env.ADMIN_ACTION || "false", // true if want see admin activity 
+ADMIN_ACTION: process.env.ADMIN_ACTION || "true", // true if want see admin activity 
 
 };
         
